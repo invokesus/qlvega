@@ -22,7 +22,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		645C8ACE20390CF100B80CB1 /* PBXContainerItemProxy */ = {
+		645C8AE52039148B00B80CB1 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 64D9F12820390655000C5FA5 /* Project object */;
 			proxyType = 1;
@@ -52,11 +52,7 @@
 		645C8AB120390BF700B80CB1 /* ApplicationServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ApplicationServices.framework; path = System/Library/Frameworks/ApplicationServices.framework; sourceTree = SDKROOT; };
 		645C8AB220390BF700B80CB1 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		645C8AB320390BF700B80CB1 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
-		645C8AC220390CCD00B80CB1 /* Package.qlgenerator */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Package.qlgenerator; sourceTree = BUILT_PRODUCTS_DIR; };
-		645C8AC420390CCD00B80CB1 /* GenerateThumbnailForURL.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = GenerateThumbnailForURL.c; sourceTree = "<group>"; };
-		645C8AC620390CCD00B80CB1 /* GeneratePreviewForURL.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = GeneratePreviewForURL.c; sourceTree = "<group>"; };
-		645C8AC820390CCD00B80CB1 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
-		645C8ACA20390CCD00B80CB1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		645C8AD6203911DB00B80CB1 /* Package.qlgenerator */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Package.qlgenerator; sourceTree = BUILT_PRODUCTS_DIR; };
 		64D9F13120390655000C5FA5 /* qlvega.qlgenerator */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = qlvega.qlgenerator; sourceTree = BUILT_PRODUCTS_DIR; };
 		64D9F13420390655000C5FA5 /* GenerateThumbnailForURL.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GenerateThumbnailForURL.m; sourceTree = "<group>"; };
 		64D9F13620390655000C5FA5 /* GeneratePreviewForURL.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GeneratePreviewForURL.m; sourceTree = "<group>"; };
@@ -96,22 +92,10 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		645C8AC320390CCD00B80CB1 /* Package */ = {
-			isa = PBXGroup;
-			children = (
-				645C8AC420390CCD00B80CB1 /* GenerateThumbnailForURL.c */,
-				645C8AC620390CCD00B80CB1 /* GeneratePreviewForURL.c */,
-				645C8AC820390CCD00B80CB1 /* main.c */,
-				645C8ACA20390CCD00B80CB1 /* Info.plist */,
-			);
-			path = Package;
-			sourceTree = "<group>";
-		};
 		64D9F12720390655000C5FA5 = {
 			isa = PBXGroup;
 			children = (
 				64D9F13320390655000C5FA5 /* qlvega */,
-				645C8AC320390CCD00B80CB1 /* Package */,
 				64D9F13220390655000C5FA5 /* Products */,
 				645C8AAD20390BF700B80CB1 /* Frameworks */,
 			);
@@ -121,7 +105,7 @@
 			isa = PBXGroup;
 			children = (
 				64D9F13120390655000C5FA5 /* qlvega.qlgenerator */,
-				645C8AC220390CCD00B80CB1 /* Package.qlgenerator */,
+				645C8AD6203911DB00B80CB1 /* Package.qlgenerator */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -153,20 +137,20 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		645C8AC120390CCD00B80CB1 /* Package */ = {
+		645C8AD5203911DB00B80CB1 /* Package */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 645C8ACB20390CCD00B80CB1 /* Build configuration list for PBXNativeTarget "Package" */;
+			buildConfigurationList = 645C8ADF203911DB00B80CB1 /* Build configuration list for PBXNativeTarget "Package" */;
 			buildPhases = (
-				645C8AD020390CF500B80CB1 /* ShellScript */,
+				645C8AE4203911FC00B80CB1 /* Run Script */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				645C8ACF20390CF100B80CB1 /* PBXTargetDependency */,
+				645C8AE62039148B00B80CB1 /* PBXTargetDependency */,
 			);
 			name = Package;
 			productName = Package;
-			productReference = 645C8AC220390CCD00B80CB1 /* Package.qlgenerator */;
+			productReference = 645C8AD6203911DB00B80CB1 /* Package.qlgenerator */;
 			productType = "com.apple.product-type.bundle";
 		};
 		64D9F13020390655000C5FA5 /* qlvega */ = {
@@ -198,7 +182,7 @@
 				LastUpgradeCheck = 0900;
 				ORGANIZATIONNAME = "Souvik Sen";
 				TargetAttributes = {
-					645C8AC120390CCD00B80CB1 = {
+					645C8AD5203911DB00B80CB1 = {
 						CreatedOnToolsVersion = 9.0;
 					};
 					64D9F13020390655000C5FA5 = {
@@ -219,7 +203,7 @@
 			projectRoot = "";
 			targets = (
 				64D9F13020390655000C5FA5 /* qlvega */,
-				645C8AC120390CCD00B80CB1 /* Package */,
+				645C8AD5203911DB00B80CB1 /* Package */,
 			);
 		};
 /* End PBXProject section */
@@ -250,18 +234,19 @@
 			shellScript = "qlmanage -r";
 			showEnvVarsInLog = 0;
 		};
-		645C8AD020390CF500B80CB1 /* ShellScript */ = {
+		645C8AE4203911FC00B80CB1 /* Run Script */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
+			name = "Run Script";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "# shell script goes here\n#if [ $BUILD_STYLE != \"Release\" ]; then\n#   echo \"Error: Must use Release build style\"\n#   exit 1\n#fi\n\ncd $PROJECT_DIR\nmkdir -vp release\ncd release\npkgDir=qlvega_$CURRENT_PROJECT_VERSION\nrm -rf $pkgDir\nmkdir $pkgDir\ncp -rp $TARGET_BUILD_DIR/*.qlgenerator $pkgDir\n                         \n# For some reason Xcode has been producing world-writable output on occasion\nchmod -R o-w $pkgDir\ntar cvzf $pkgDir.tgz $pkgDir\nopen $PROJECT_DIR/release";
+			shellScript = "cd $PROJECT_DIR\nmkdir -vp release\ncd release\npkgDir=qlvega_$CURRENT_PROJECT_VERSION\nrm -rf $pkgDir\nmkdir $pkgDir\ncp -rp $TARGET_BUILD_DIR/qlvega.qlgenerator $pkgDir\n                         \n                         # For some reason Xcode has been producing world-writable output on occasion\n                         chmod -R o-w $pkgDir\n                         tar cvzf $pkgDir.tgz $pkgDir\n                         open $PROJECT_DIR/release";
 		};
 /* End PBXShellScriptBuildPhase section */
 
@@ -280,39 +265,41 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		645C8ACF20390CF100B80CB1 /* PBXTargetDependency */ = {
+		645C8AE62039148B00B80CB1 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 64D9F13020390655000C5FA5 /* qlvega */;
-			targetProxy = 645C8ACE20390CF100B80CB1 /* PBXContainerItemProxy */;
+			targetProxy = 645C8AE52039148B00B80CB1 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		645C8ACC20390CCD00B80CB1 /* Debug */ = {
+		645C8AE0203911DB00B80CB1 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_ARC = YES;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = E93DV3R9R8;
 				INFOPLIST_FILE = Package/Info.plist;
-				INSTALL_PATH = /Library/QuickLook;
+				INSTALL_PATH = "";
 				PRODUCT_BUNDLE_IDENTIFIER = self.Package;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = qlgenerator;
+				ZERO_LINK = "";
 			};
 			name = Debug;
 		};
-		645C8ACD20390CCD00B80CB1 /* Release */ = {
+		645C8AE1203911DB00B80CB1 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_ARC = YES;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = E93DV3R9R8;
 				INFOPLIST_FILE = Package/Info.plist;
-				INSTALL_PATH = /Library/QuickLook;
+				INSTALL_PATH = "";
 				PRODUCT_BUNDLE_IDENTIFIER = self.Package;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = qlgenerator;
+				ZERO_LINK = NO;
 			};
 			name = Release;
 		};
@@ -448,11 +435,11 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		645C8ACB20390CCD00B80CB1 /* Build configuration list for PBXNativeTarget "Package" */ = {
+		645C8ADF203911DB00B80CB1 /* Build configuration list for PBXNativeTarget "Package" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				645C8ACC20390CCD00B80CB1 /* Debug */,
-				645C8ACD20390CCD00B80CB1 /* Release */,
+				645C8AE0203911DB00B80CB1 /* Debug */,
+				645C8AE1203911DB00B80CB1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

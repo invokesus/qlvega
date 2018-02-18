@@ -4,19 +4,31 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>Package.xcscheme</key>
+		<key>Package.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>1</integer>
 		</dict>
-		<key>qlvega.xcscheme</key>
+		<key>qlvega.xcscheme_^#shared#^_</key>
 		<dict>
+			<key>isShown</key>
+			<true/>
 			<key>orderHint</key>
 			<integer>0</integer>
 		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
+		<key>645C8AC120390CCD00B80CB1</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>645C8AD5203911DB00B80CB1</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>64D9F13020390655000C5FA5</key>
 		<dict>
 			<key>primary</key>
