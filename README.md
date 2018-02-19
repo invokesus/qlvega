@@ -48,5 +48,9 @@ Limitations
 Currently all json files are treated as vega or vega-lite files. This will be fixed very soon.
 
 
+Acknowledgements
+----------------
+The QLColorCode project by derzzle and its fork maintained by
+anthonygelibert.
 
 
